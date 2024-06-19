@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+body {
+  background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 2px 3px 5px rgb(125, 7, 164);
+  font-family: "Teko", sans-serif;
+}
+
+h1 a{
+  text-decoration: none;
+}
+
+span {
+  color: rgb(167, 30, 198);
+  text-shadow: 1px 1px 2px rgb(222, 215, 228);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.interactions{
+  font-size: 1.6rem;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+
+li span{
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+}
+
+.enjoy-game{
+  font-size: 1.5rem;
+}
+
+.play-now{
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.play-now:hover, .author-link:hover{
+  opacity: 0.6;
+}
+.play-now:active, .author-link:active{
+  opacity: 0.4;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+.author-link{
+  text-decoration: none;
+  color: rgb(151, 18, 151);
+
+}
+

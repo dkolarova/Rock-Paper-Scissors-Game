@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+FR+Moderne:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3); 
+  background: linear-gradient(to right, #faaca8, #ddd6f3); 
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  font-size: 3.4rem;
+  text-align: center;
+  color: rgb(186, 0, 253);
+  text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.938);
+  font-family: "Kanit", sans-serif;
+}
+
+img{
+  width: 100px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.rock, .paper, .scissors{
+ margin-top: 40px;
+ background-color: transparent;
+ border: 4px solid white;
+ width: 200px;
+ height: 200px;
+ border-radius: 100px;
+ margin-left: 20px;
+ cursor: pointer;
+ box-shadow: 1px 1px 23px -10px rgba(0, 0, 0, 1);
+}
+
+.rock:hover, .paper:hover, .scissors:hover{
+  background-color: rgba(0, 0, 0, 0.101);
+  transition: 0.1s;
+}
+
+.text{
+  text-align: center;
+}
+
+
+.final{
+  font-size: 3rem;
+  color: #ce0fcb;
+  font-family: "Kanit", sans-serif;
+}
+
+p{
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+
+.score{
+  margin-top: 50px;
+}
+
+.reset-score, .auto-play{
+  background-color: plum;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 10px 18px -10px rgba(0, 0, 0, 1);
+  margin: 20px;
+}
+
+.reset-score:hover, .auto-play:hover{
+  opacity: 0.7;
+}
+
+.yes-btn, .no-btn{
+  background-color: #ce0fcb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.yes-btn:hover, .no-btn:hover{
+  opacity: 0.7;
+}
+
+/* ----------------- Mobile - Version ------------------ */
+
+@media only screen 
+and (min-width: 300px)
+and (max-width: 890px){
+  .container{
+    display: grid;
+  }
+
+  .yes-btn, .no-btn{
+    margin-bottom: 5%;
+  }
+}
